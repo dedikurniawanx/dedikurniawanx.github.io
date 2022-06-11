@@ -1,0 +1,33 @@
+.navbar {
+  position: relative;
+  z-index: 1;
+}
+.nav-link {
+  color: white !important;
+}
+.jumbotron {
+  background-image: url(img/arnold-francisca-f77Bh3inUpE-unsplash.webp);
+  background-size: cover;
+  height: 620px;
+  position: relative;
+  margin-bottom: 0px !important;
+}
+
+.jumbotron .container {
+  z-index: 1;
+  position: relative;
+}
+.jumbotron::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+.about {
+  background-color: black;
+  color: white;
+}
+
