@@ -9,7 +9,7 @@
 .jumbotron {
   background-image: url(img/arnold-francisca-f77Bh3inUpE-unsplash.webp);
   background-size: cover;
-  height: 620px;
+  height: 640px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -47,7 +47,7 @@
   }
 
   .jumbotron {
-    margin-top: -75px;
+    margin-top: -60px;
   }
 
 
